@@ -26,8 +26,8 @@ body {
   width: 100%;
   height: 500px;
   position: relative;
-  background-image: url(/images/bg-pattern-intro.svg);
-  background-image: url(/images/bg-pattern-intro.svg),
+  background-image: url(images/bg-pattern-intro.svg);
+  background-image: url(images/bg-pattern-intro.svg),
     linear-gradient(to bottom, $VeryLightRedG, $LightRedG);
   background-size: 300%, cover;
   background-position: 35% 35%, 0 0;
@@ -269,7 +269,7 @@ body {
 
     img {
       margin: 20px 0;
-      content: url(/images/illustration-editor-mobile.svg);
+      content: url(images/illustration-editor-mobile.svg);
       width: 100%;
     }
   }
@@ -280,8 +280,8 @@ body {
     margin-top: 160px;
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
-    background-image: url(/images/bg-pattern-circles.svg);
-    background-image: url(/images/bg-pattern-circles.svg),
+    background-image: url(images/bg-pattern-circles.svg);
+    background-image: url(images/bg-pattern-circles.svg),
       linear-gradient(to bottom, $VeryDarkGrayBlueG, $VeryDarkDesaturatedBlueG);
     background-size: 160%, cover;
     background-repeat: no-repeat;
@@ -347,7 +347,7 @@ body {
     }
 
     img {
-      content: url(/images/illustration-laptop-mobile.svg);
+      content: url(images/illustration-laptop-mobile.svg);
       margin: 20px 0;
       width: 100%;
     }
@@ -400,8 +400,8 @@ body {
 
 @media screen and (min-width: 1000px) {
   .header {
-    background-image: url(/images/bg-pattern-intro.svg);
-    background-image: url(/images/bg-pattern-intro.svg),
+    background-image: url(images/bg-pattern-intro.svg);
+    background-image: url(images/bg-pattern-intro.svg),
       linear-gradient(to right, $VeryLightRedG, $LightRedG);
     background-size: 225%, cover;
     background-position: 25% 52%, 0 0;
@@ -538,11 +538,11 @@ body {
       }
 
       img {
-        content: url(/images/illustration-editor-desktop.svg);
+        content: url(images/illustration-editor-desktop.svg);
         width: 50%;
         max-width: 560px;
         order: 2;
-        margin-right: -185px;
+        margin-right: -195px;
       }
     }
 
@@ -577,7 +577,7 @@ body {
       }
 
       img {
-        content: url(/images/illustration-laptop-desktop.svg);
+        content: url(images/illustration-laptop-desktop.svg);
         width: 55%;
         max-width: 616px;
         margin-left: -210px;
